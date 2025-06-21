@@ -1,0 +1,7 @@
+{
+    "cmake.configureArgs": [
+        "--preset=default",
+        "-DCMAKE_BUILD_TYPE=DEBUG"
+    ],
+    "cmake.useVsDeveloperEnvironment": "always"
+}
