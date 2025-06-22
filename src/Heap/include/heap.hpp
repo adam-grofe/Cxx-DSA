@@ -64,9 +64,9 @@ namespace Heap
 
         size_t _get_parent_index(size_t index)
         {
-            if (index <= 1)
+            if (index == 0)
             {
-                return 0;
+                return _null();
             }
             return (index - 1) / _branchingFactor;
         }
